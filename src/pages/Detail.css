@@ -1,0 +1,38 @@
+.DetailItem img {
+  width: 300px;
+  height: 350px;
+  float: left;
+  margin-left: 40px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.Detail h1 {
+  color: darkblue;
+  margin-top: 20px;
+}
+.detaildescript {
+  color: darkorange;
+  margin-top: 50px;
+  font-size: 25px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  margin-left: 400px;
+  margin-right: 70px;
+  padding: 20px;
+}
+
+.detaildescript p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: goldenrod;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+@media screen and (max-width: 800px) {
+  .detaildescrip p {
+    max-width: 100%;
+    box-shadow: none;
+    border: none;
+  }
+}
